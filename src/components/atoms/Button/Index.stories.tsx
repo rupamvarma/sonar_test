@@ -1,7 +1,9 @@
 import { ThemeProvider } from "@emotion/react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import theme from "../../theme";
+import theme from "../../../theme";
+import IconComponent from "../Icon/icon";
 import ButtonComponent from "./Index";
+import Vector from "/home/rupv/Desktop/sonar-test/src/assets/Vector.png";
 
 export default {
   title: 'Atoms/Button',
@@ -29,5 +31,6 @@ HomeIconButton.args ={
     children: "Home",
     variant: "contained",
     size: "large",
-    color: "secondary"
+    color: "secondary",
+    startIcon: <IconComponent src={Vector}/>
 }

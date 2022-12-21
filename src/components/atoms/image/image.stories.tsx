@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import ImageComponent from "./image";
-import Banner from "/home/rupv/rupam-dev-task/seeder-app/react-seeder-app/src/assets/image69.png";
+import Banner from "/home/rupv/Desktop/sonar-test/src/assets/image69.png";
 
 export default {
   title: 'Atoms/Image',

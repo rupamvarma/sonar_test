@@ -1,8 +1,5 @@
-
 import Checkbox from '@mui/material/Checkbox';
-import { ThemeProvider } from "@mui/material";
 import React from "react";
-import theme from "../../theme";
 
 interface ICheckBoxProps{
     checked: boolean;
@@ -10,11 +7,9 @@ interface ICheckBoxProps{
     defaultChecked: boolean;
     name: string;
 }
-const CheckboxComponent: React.FC<ICheckBoxProps> = (props)=>{
+const CheckboxComponent = (props:ICheckBoxProps)=>{
     return (
-      <ThemeProvider theme={theme}>
-        <Checkbox color={"info"}/>
-      </ThemeProvider>
+      <Checkbox color={"info"}/>
     )
 }
 export default CheckboxComponent;

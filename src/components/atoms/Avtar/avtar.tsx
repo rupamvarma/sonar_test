@@ -1,13 +1,13 @@
 import { Avatar, Grid, SxProps, Theme } from "@mui/material";
 import React from "react";
 import ImageComponent from "../image/image";
-import arrow from "/home/rupv/rupam-dev-task/seeder-app/react-seeder-app/src/assets/arrow.png";
+import arrow from "/home/rupv/Desktop/sonar-test/src/assets/arrow.png"
 
 interface IAvatar{
    src: string;
    sx: SxProps<Theme>
 }
-const AvtarComponent: React.FC<IAvatar> = (props)=>{
+const AvtarComponent = (props:IAvatar)=>{
  return (
  <Grid container direction="row" alignItems="center" spacing={1}>
    <Grid item>

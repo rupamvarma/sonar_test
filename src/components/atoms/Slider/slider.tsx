@@ -1,7 +1,7 @@
 import { Slider, styled} from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import theme from "../../theme";
+import theme from "../../../theme";
 
 const StyledSlider= styled(Slider)(()=>({
     color: `${theme.palette.primary.main}`,

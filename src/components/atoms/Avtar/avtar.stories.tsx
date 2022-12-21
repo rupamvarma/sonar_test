@@ -14,7 +14,7 @@ const Template: ComponentStory<typeof AvtarComponent> = (args) => <AvtarComponen
 export const Profile = Template.bind({});
 
 Profile.args ={
-  src: require('/public/a.png'),
+  src: require('/home/rupv/Desktop/sonar-test/src/assets/a.png'),
   sx: {
     borderRadius: '12px'
   }
